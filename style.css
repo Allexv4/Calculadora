@@ -92,3 +92,21 @@ body {
 button:active {
   opacity: 0.9;
 }
+@media (max-width: 520px) {
+  .nome {
+    width: 2px;
+    height: 40px;
+    margin-bottom: 500px;
+    color: #3a3c66;
+    font-size: 2rem;
+  }
+  .calculadora {
+    width: 300px;
+    height: 365px;
+    background-color: #3a3c66;
+    border-radius: 22px;
+    box-shadow: 20px 12px 8px #2a3259;
+    font-family: Helvetica, sans-serif;
+    overflow: hidden;
+  }
+}
